@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("postgres://tpmbufwr:P4eC9TVDwVtxDOEt1edZ6GMsv-CKeW8d@snuffleupagus.db.elephantsql.com/tpmbufwr")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['django-blogbasel-402140cf0802.herokuapp.com']
 
